@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankur Narwal | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+
+    <div class="logo-section">
+      <img src="assets/logo.png" alt="Logo" class="logo-icon">
+      <div class="logo-text">
+        <h1>Ankur Narwal</h1>
+        <span>FrontEnd Web Developer</span>
+      </div>
+    </div>
+
+
+    <nav class="nav-container">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#blogs" class="nav-link">Blogs</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+
+    <div class="right-side">
+      <span class="status-dot"></span>
+      <span class="status-text">Available</span>
+
+      <!-- Email -->
+      <a href="mailto:ankurnarwal11@gmail.com" class="social-img">
+        <img src="assets/email.jpg" alt="Email">
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com/in/ankur-narwal" target="_blank" class="social-img">
+        <img src="assets/linkedin.webp" alt="LinkedIn">
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/ankur-narwal" target="_blank" class="social-img">
+        <img src="assets/github.png" alt="GitHub">
+      </a>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- Home / Front Page -->
+    <section id="home" class="page-section front-page">
+      <h2 class="intro-line">Hi, I am <span id="typed-name"></span></h2>
+      <p class="tagline">Front-End Developer with a touch of creativity.</p>
+      <p class="tagline2">I craft clean, modern web experiences with a creative edge.</p>
+
+      <div class="buttons">
+        <a href="assets/resume.pdf" download class="btn">Download Resume ↓</a>
+        <a href="#work" class="btn ">See My Work →</a>
+      </div>
+      <div class="profile-container">
+        <img src="assets/profile.png" alt="Ankur Narwal" class="profile-img">
+      </div>
+      <div class="corner-image">
+        <img src="assets/this.png" alt="Decorative Element" class="decor-img">
+      </div>
+
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="intro-section">
+      <div class="intro-text">
+        <h2 class="intro-heading">Exploring Creativity Through Code</h2>
+        <p class="intro-description">
+          I’m Ankur Narwal, a frontend developer passionate about blending design with functionality.
+          From sleek interfaces to interactive web elements, I focus on delivering clean, responsive,
+          and engaging experiences that leave an impression.
+        </p>
+        <div class="intro-buttons">
+          <a href="#" class="btn btn-readmore">Read More →</a>
+          <a href="mailto:ankurnarwal11@gmail.com" class="btn btn-contact">Contact Me →</a>
+        </div>
+      </div>
+
+      <div class="intro-image-container">
+        <img src="assets/trans.png" alt="Ancient Person" class="intro-image">
+      </div>
+      <div class="intro_corner-image">
+        <img src="assets/this_not.png" alt="Decorative Element" class="intro_decor-img">
+      </div>
+    </section>
+
+
+    <!-- Work section/ projects -->
+    <section id="work" class="page-section work-section">
+      <h2 class="work-title">My Work</h2>
+
+      <!-- Work 1 -->
+      <div class="work-card">
+        <div class="work-image">
+          <img src="assets/chess.png" alt="Chess Wars Project">
+        </div>
+        <div class="work-info">
+          <h3>Chess Wars</h3>
+          <p>An interactive online chess platform with play locally, puzzles, and tournaments.</p>
+          <div class="work-links">
+            <a href="#" target="_blank" class="work-btn">Live Project</a>
+            <a href="https://github.com/ankur-narwal/chess-wars" target="_blank" class="work-btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work 2 -->
+      <div class="work-card reverse">
+        <div class="work-image">
+          <img src="assets/e-learn.jpg" alt="E-Learning Site">
+        </div>
+        <div class="work-info">
+          <h3>E-Learning Site</h3>
+          <p>A responsive learning platform with progress tracking and course listings.</p>
+          <div class="work-links">
+            <a href="#" target="_blank" class="work-btn">Live Project</a>
+            <a href="https://github.com/ankur-narwal/e-learning" target="_blank" class="work-btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work 3 -->
+      <div class="work-card">
+        <div class="work-image">
+          <img src="assets/music.jpg" alt="Music Hut Project">
+        </div>
+        <div class="work-info">
+          <h3>Music Hut</h3>
+          <p>A sleek, interactive music website with playlists and a modern UI.</p>
+          <div class="work-links">
+            <a href="#" target="_blank" class="work-btn">Live Project</a>
+            <a href="https://github.com/ankur-narwal/MusicHUT" target="_blank" class="work-btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="skills-title">Skills</h2>
+      <p class="skills-subtitle">I work with modern web tools and technologies, including</p>
+
+      <div class="skills-row">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+          class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+          class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript" class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"
+          class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+          class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+          class="skill-logo">
+
+      </div>
+
+      <div class="skills-row">
+
+        <img src="assets/git.webp" alt="GitHub" class="skill-logo">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"
+          class="skill-logo">
+        <img src="assets/chat.webp" alt="ChatGPT" class="skill-logo">
+      </div>
+    </section>
+
+
+    <!-- Blog section -->
+    <section id="blogs" class="page-section blogs-section">
+      <div class="divider"></div>
+
+      <div class="blogs-content">
+        <h2 class="blogs-title">Blogs</h2>
+        <ul class="blogs-list">
+          <li>
+            <span class="bookmark-icon">🔖</span>
+            <span class="blog-text">How I Built My Chess Website</span>
+            <span class="read-time">(4 min Read)</span>
+          </li>
+          <li>
+            <span class="bookmark-icon">🔖</span>
+            <span class="blog-text">How to Make Your Portfolio</span>
+            <span class="read-time">(5 min Read)</span>
+          </li>
+          <li>
+            <span class="bookmark-icon">🔖</span>
+            <span class="blog-text">Mastering Prompt Engineering</span>
+            <span class="read-time">(6 min Read)</span>
+          </li>
+        </ul>
+        <a href="#" class="blogs-btn">See My Blogs</a>
+      </div>
+    </section>
+
+
+    <!-- contact me -->
+    <section id="contact" class="page-section contact-section">
+      <div class="contact-content">
+        <div class="contact-text">
+          <p>
+            Got a project in mind? Want to collaborate on something cool?<br>
+            Or maybe you just want to challenge me to a quick chess match (I rarely say no!).<br>
+            Either way, I'd love to hear from you.
+          </p>
+          <a href="mailto:ankurnarwal11@gmail.com" class="contact-btn">Let's Connect</a>
+        </div>
+        <div class="contact-image">
+          <img src="assets/knight.png" alt="Chess Knight">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="assets/logo.png" alt="Logo" class="footer-logo">
+        <p>© 2025 Ankur Narwal. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
