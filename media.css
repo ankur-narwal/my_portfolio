@@ -1,0 +1,185 @@
+/* media querry */
+@media (max-width: 480px) {
+
+  
+  .logo-section,
+  .right-side {
+    display: none !important;
+  }
+
+  
+  .nav-container {
+    width: 100%;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0;
+    background: rgba(14, 14, 14, 0.95);
+  }
+
+ 
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    flex: 1;
+    text-align: center;
+  }
+
+ 
+
+  .profile-container,
+  .corner-image {
+    display: none !important;
+  }
+
+  #home h2 {
+  
+    font-size: 2.1rem;  
+    line-height: 2.9rem;
+    padding-bottom: 20px;
+  }
+
+  .home-section p {
+    font-size: 0.9rem;   
+    line-height: 1.3rem;
+  }
+
+  
+  .home-section {
+    text-align: center;
+    padding: 1rem;
+  
+}
+
+
+.intro-image-container,
+.intro_corner-image{
+    display: none;
+}
+.intro-text{
+    max-width: 70%;
+    height: 80vh;
+    padding-top: 110px;
+}
+
+.intro-section h2 {
+    font-size: 2.1rem;
+    line-height: 2.9rem;
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .intro-section p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+
+  .intro-section {
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+   .custom-dialog{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    padding: 1rem;
+  }
+
+  .custom-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6); 
+  }
+
+  
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  /* work section  */
+  .work-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .work-card {
+    width: 90%;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 0px;
+  }
+
+  .work-card img {
+    width: 90vw;   
+    height: auto;
+    border-radius: 10px;
+    
+  }
+ .work-card.reverse{
+    padding-right: 0px;
+    margin-left: 40px;
+ }
+  .work-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .work-card p {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .work-card .work-info .work-links {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .skills-section .skills-subtitle{
+    display: none;
+  }
+
+  .skills-section .skills-title{
+    padding-bottom: 50px;
+  }
+
+  .contact-section {
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  .contact-section .contact-image{
+    display: none;
+  }
+  .contact-content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container {
+    width: 100%;
+  }
+}
+
+
